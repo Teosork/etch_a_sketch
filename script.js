@@ -16,3 +16,10 @@ function createGrid(size) {
 }
 
 createGrid(16);
+
+container.addEventListener("mouseover", (event) => {
+    const hovered = event.target
+    if (hovered.classList.contains("square")) {
+        hovered.style.backgroundColor = "black";
+    }
+});
