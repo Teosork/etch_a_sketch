@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+.square {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
