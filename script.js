@@ -42,3 +42,12 @@ resizeBtn.addEventListener("click", () => {
 
   createGrid(size);
 });
+
+const clearBtn = document.querySelector("#clearBtn");
+
+clearBtn.addEventListener("click", () => {
+  const squares = container.querySelectorAll(".square");
+  squares.forEach(square => {
+    square.style.backgroundColor = "";
+  });
+});
